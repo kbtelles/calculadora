@@ -1,0 +1,75 @@
+.calculadora{
+    filter: drop-shadow(15px 24px 6px rgba(0, 0, 0, 0.25));
+    max-width: 50rem;
+    height: 78rem;
+    margin: auto;
+    background-color: black;
+}
+/******************/
+
+.pantalla {
+    width: 92%;
+    height: 20rem;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.resultado{
+    font-size: 10rem;
+    font-weight: 400;
+    letter-spacing: 1.2rem;
+    color: white;
+}
+
+
+/******************/
+
+.teclado{
+    width: 92%;
+    height: 72%;
+
+    margin: auto;
+    display: grid; /*Sirve para organizar todo para en celdas*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.teclado div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 2rem;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.cero{
+    grid-column-start : 1;
+    grid-column-end: 3;
+    padding-right: 13rem;
+    background-color: rgb(57, 57, 57);
+    color: white;
+}
+
+/***********************/
+
+.gris{
+    background-color: rgb(163, 162, 162);
+    color: white;
+}    
+
+.naranja{
+    background-color: rgb(243, 143, 67);
+    color: white;
+}
+
+.negro{
+    background-color: rgb(57, 57, 57);
+    color: white;
+}
