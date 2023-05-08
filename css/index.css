@@ -3,7 +3,7 @@
     max-width: 50rem;
     height: 78rem;
     margin: auto;
-    background-color: black;
+    background-color:#191A1C;
 }
 /******************/
 
@@ -23,6 +23,8 @@
     font-weight: 400;
     letter-spacing: 1.2rem;
     color: white;
+
+    margin-bottom: 3rem;
 }
 
 
@@ -35,6 +37,7 @@
     margin: auto;
     display: grid; /*Sirve para organizar todo para en celdas*/
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
     grid-gap: 10px;
 }
 
@@ -47,29 +50,167 @@
     border-radius: 2rem;
     font-size: 5rem;
     font-weight: 600;
+
+    cursor: pointer;
 }
 
 .cero{
     grid-column-start : 1;
     grid-column-end: 3;
     padding-right: 13rem;
-    background-color: rgb(57, 57, 57);
+    background-color: #393939;
     color: white;
 }
-
-/***********************/
-
-.gris{
-    background-color: rgb(163, 162, 162);
-    color: white;
-}    
-
-.naranja{
-    background-color: rgb(243, 143, 67);
-    color: white;
+.cero:hover{
+    background-color: rgb(138, 137, 137);
 }
 
-.negro{
-    background-color: rgb(57, 57, 57);
+
+/******** COLORES ***************/
+
+/*COLORES GRISES*/
+.tecla-ac{
+    background-color:#717276;
     color: white;
+}
+.tecla-ac:hover{
+    background-color: rgb(169, 160, 160);
+} 
+
+.tecla-psng{
+    background-color:#717276;
+    color: white;
+}
+.tecla-psng:hover{
+    background-color: rgb(169, 160, 160);
+}  
+
+.tecla-porc{
+    background-color:#717276;
+    color: white;
+}
+.tecla-porc:hover{
+    background-color: rgb(169, 160, 160);
+}   
+
+/*COLORES NARANJA*/
+.tecla-div{
+    background-color: #EF8924;
+    color: white;
+}
+.tecla-div:hover{
+    background-color: #ffb973;
+}   
+
+.tecla-por{
+    background-color: #EF8924;
+    color: white;
+}
+.tecla-por:hover{
+    background-color: #ffb973;
+}   
+
+.tecla-menos{
+    background-color: #EF8924;
+    color: white;
+}
+.tecla-menos:hover{
+    background-color: #ffb973;
+}   
+
+.tecla-mas{
+    background-color: #EF8924;
+    color: white;
+}
+.tecla-mas:hover{
+    background-color: #ffb973;
+}   
+
+.tecla-igual{
+    background-color: #EF8924;
+    color: white;
+}
+.tecla-igual:hover{
+    background-color: #ffb973;
+}   
+
+/*COLORES OSCUROS*/
+.tecla-7{
+    background-color: #393939;
+    color: white;
+}
+.tecla-7:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.tecla-8{
+    background-color: #393939;
+    color: white;
+}
+.tecla-8:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.tecla-9{
+    background-color: #393939;
+    color: white;
+}
+.tecla-9:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.tecla-4{
+    background-color: #393939;
+    color: white;
+}
+.tecla-4:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.tecla-5{
+    background-color: #393939;
+    color: white;
+}
+.tecla-5:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.tecla-6{
+    background-color: #393939;
+    color: white;
+}
+.tecla-6:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.tecla-1{
+    background-color: #393939;
+    color: white;
+}
+.tecla-1:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.tecla-2{
+    background-color: #393939;
+    color: white;
+}
+.tecla-2:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.tecla-3{
+    background-color: #393939;
+    color: white;
+}
+.tecla-3:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.tecla-coma{
+    background-color: #393939;
+    color: white;
+}
+.tecla-coma:hover{
+    background-color: rgb(138, 137, 137);
 }
